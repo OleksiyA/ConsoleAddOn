@@ -1,0 +1,3 @@
+[submodule "thirdParty/mach_inject"]
+	path = thirdParty/mach_inject
+	url = https://github.com/rentzsch/mach_inject.git

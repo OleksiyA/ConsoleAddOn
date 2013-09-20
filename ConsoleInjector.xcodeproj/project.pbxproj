@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D77FEED17E38C19007C048E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD11D6217DA94F700FDF548 /* Cocoa.framework */; };
+		4D77FEF717E38C19007C048E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D77FEF517E38C19007C048E /* InfoPlist.strings */; };
+		4D77FEF917E38C19007C048E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77FEF817E38C19007C048E /* main.m */; };
+		4D77FEFD17E38C19007C048E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4D77FEFB17E38C19007C048E /* Credits.rtf */; };
+		4D77FF0017E38C19007C048E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77FEFF17E38C19007C048E /* AppDelegate.m */; };
+		4D77FF0317E38C19007C048E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D77FF0117E38C19007C048E /* MainMenu.xib */; };
+		4D77FF0B17E38C19007C048E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D77FF0A17E38C19007C048E /* SenTestingKit.framework */; };
+		4D77FF0C17E38C19007C048E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD11D6217DA94F700FDF548 /* Cocoa.framework */; };
+		4D77FF1417E38C19007C048E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D77FF1217E38C19007C048E /* InfoPlist.strings */; };
+		4D77FF1717E38C19007C048E /* ConsoleAddOnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77FF1617E38C19007C048E /* ConsoleAddOnTests.m */; };
+		4DD11D3617DA8FC300FDF548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD11D3517DA8FC300FDF548 /* Foundation.framework */; };
+		4DD11D3917DA8FC300FDF548 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD11D3817DA8FC300FDF548 /* main.m */; };
+		4DD11D4E17DA93AF00FDF548 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD11D4D17DA93AF00FDF548 /* AppKit.framework */; };
+		4DD11D5517DA94B700FDF548 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD11D5417DA94B700FDF548 /* CoreFoundation.framework */; };
+		4DD11D5B17DA94B700FDF548 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DD11D5917DA94B700FDF548 /* InfoPlist.strings */; };
+		4DD11D6317DA94F700FDF548 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD11D6217DA94F700FDF548 /* Cocoa.framework */; };
+		4DD11D6617DBBAB700FDF548 /* ConsolePayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD11D6517DBBAB700FDF548 /* ConsolePayload.m */; };
+		4DD11D6717DBD10300FDF548 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD11D4D17DA93AF00FDF548 /* AppKit.framework */; };
+		7A42357D17EBB0EB00A3268F /* ConsoleInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A42357C17EBB0EB00A3268F /* ConsoleInjector.m */; };
+		7A42358117EBB97000A3268F /* ConsoleInjector in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DD11D3217DA8FC300FDF548 /* ConsoleInjector */; };
+		7A42358217EBB97500A3268F /* ConsolePayload.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DD11D5317DA94B700FDF548 /* ConsolePayload.bundle */; };
+		7AC6AB7117ED05E400EFDE56 /* mach_inject_bundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC6AB6E17ED04FD00EFDE56 /* mach_inject_bundle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D77FF0D17E38C19007C048E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD11D2A17DA8FC300FDF548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D77FEEB17E38C18007C048E;
+			remoteInfo = ConsoleAddOn;
+		};
+		4D77FF1E17E3CA82007C048E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD11D2A17DA8FC300FDF548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD11D3117DA8FC300FDF548;
+			remoteInfo = ConsoleInjector;
+		};
+		4D77FF2017E3CA85007C048E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD11D2A17DA8FC300FDF548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD11D5217DA94B700FDF548;
+			remoteInfo = ConsolePayload;
+		};
+		4DD11D6017DA94C200FDF548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD11D2A17DA8FC300FDF548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD11D5217DA94B700FDF548;
+			remoteInfo = ConsolePayload;
+		};
+		7AC6AB6D17ED04FD00EFDE56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AC6AB6817ED04FC00EFDE56 /* mach_inject_bundle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = mach_inject_bundle;
+		};
+		7AC6AB6F17ED05DE00EFDE56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AC6AB6817ED04FC00EFDE56 /* mach_inject_bundle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = mach_inject_bundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7A42357E17EBB6E700A3268F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A42358017EBB95E00A3268F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				7A42358217EBB97500A3268F /* ConsolePayload.bundle in CopyFiles */,
+				7A42358117EBB97000A3268F /* ConsoleInjector in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D77FEEC17E38C18007C048E /* ConsoleAddOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsoleAddOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D77FEEF17E38C19007C048E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4D77FEF017E38C19007C048E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4D77FEF117E38C19007C048E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D77FEF417E38C19007C048E /* ConsoleAddOn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConsoleAddOn-Info.plist"; sourceTree = "<group>"; };
+		4D77FEF617E38C19007C048E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D77FEF817E38C19007C048E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D77FEFA17E38C19007C048E /* ConsoleAddOn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConsoleAddOn-Prefix.pch"; sourceTree = "<group>"; };
+		4D77FEFC17E38C19007C048E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4D77FEFE17E38C19007C048E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D77FEFF17E38C19007C048E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D77FF0217E38C19007C048E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4D77FF0917E38C19007C048E /* ConsoleAddOnTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsoleAddOnTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D77FF0A17E38C19007C048E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4D77FF1117E38C19007C048E /* ConsoleAddOnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConsoleAddOnTests-Info.plist"; sourceTree = "<group>"; };
+		4D77FF1317E38C19007C048E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D77FF1517E38C19007C048E /* ConsoleAddOnTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleAddOnTests.h; sourceTree = "<group>"; };
+		4D77FF1617E38C19007C048E /* ConsoleAddOnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleAddOnTests.m; sourceTree = "<group>"; };
+		4DD11D3217DA8FC300FDF548 /* ConsoleInjector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConsoleInjector; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD11D3517DA8FC300FDF548 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4DD11D3817DA8FC300FDF548 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DD11D3B17DA8FC300FDF548 /* ConsoleInjector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConsoleInjector-Prefix.pch"; sourceTree = "<group>"; };
+		4DD11D4D17DA93AF00FDF548 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4DD11D5317DA94B700FDF548 /* ConsolePayload.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsolePayload.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD11D5417DA94B700FDF548 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4DD11D5817DA94B700FDF548 /* ConsolePayload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConsolePayload-Info.plist"; sourceTree = "<group>"; };
+		4DD11D5A17DA94B700FDF548 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4DD11D5C17DA94B700FDF548 /* ConsolePayload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConsolePayload-Prefix.pch"; sourceTree = "<group>"; };
+		4DD11D6217DA94F700FDF548 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4DD11D6417DBBAB700FDF548 /* ConsolePayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsolePayload.h; sourceTree = "<group>"; };
+		4DD11D6517DBBAB700FDF548 /* ConsolePayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsolePayload.m; sourceTree = "<group>"; };
+		7A42357B17EBB0EB00A3268F /* ConsoleInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleInjector.h; sourceTree = "<group>"; };
+		7A42357C17EBB0EB00A3268F /* ConsoleInjector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleInjector.m; sourceTree = "<group>"; };
+		7AC6AB6817ED04FC00EFDE56 /* mach_inject_bundle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mach_inject_bundle.xcodeproj; path = thirdParty/mach_inject/mach_inject_bundle/mach_inject_bundle.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D77FEE917E38C18007C048E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D77FEED17E38C19007C048E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D77FF0517E38C19007C048E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D77FF0B17E38C19007C048E /* SenTestingKit.framework in Frameworks */,
+				4D77FF0C17E38C19007C048E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD11D2F17DA8FC300FDF548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC6AB7117ED05E400EFDE56 /* mach_inject_bundle.framework in Frameworks */,
+				4DD11D6317DA94F700FDF548 /* Cocoa.framework in Frameworks */,
+				4DD11D4E17DA93AF00FDF548 /* AppKit.framework in Frameworks */,
+				4DD11D3617DA8FC300FDF548 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD11D5017DA94B700FDF548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD11D6717DBD10300FDF548 /* AppKit.framework in Frameworks */,
+				4DD11D5517DA94B700FDF548 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D77FEEE17E38C19007C048E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D77FEEF17E38C19007C048E /* AppKit.framework */,
+				4D77FEF017E38C19007C048E /* CoreData.framework */,
+				4D77FEF117E38C19007C048E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4D77FEF217E38C19007C048E /* ConsoleAddOn */ = {
+			isa = PBXGroup;
+			children = (
+				4D77FEFE17E38C19007C048E /* AppDelegate.h */,
+				4D77FEFF17E38C19007C048E /* AppDelegate.m */,
+				4D77FF0117E38C19007C048E /* MainMenu.xib */,
+				4D77FEF317E38C19007C048E /* Supporting Files */,
+			);
+			path = ConsoleAddOn;
+			sourceTree = "<group>";
+		};
+		4D77FEF317E38C19007C048E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D77FEF417E38C19007C048E /* ConsoleAddOn-Info.plist */,
+				4D77FEF517E38C19007C048E /* InfoPlist.strings */,
+				4D77FEF817E38C19007C048E /* main.m */,
+				4D77FEFA17E38C19007C048E /* ConsoleAddOn-Prefix.pch */,
+				4D77FEFB17E38C19007C048E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D77FF0F17E38C19007C048E /* ConsoleAddOnTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D77FF1517E38C19007C048E /* ConsoleAddOnTests.h */,
+				4D77FF1617E38C19007C048E /* ConsoleAddOnTests.m */,
+				4D77FF1017E38C19007C048E /* Supporting Files */,
+			);
+			path = ConsoleAddOnTests;
+			sourceTree = "<group>";
+		};
+		4D77FF1017E38C19007C048E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D77FF1117E38C19007C048E /* ConsoleAddOnTests-Info.plist */,
+				4D77FF1217E38C19007C048E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DD11D2917DA8FC300FDF548 = {
+			isa = PBXGroup;
+			children = (
+				4DD11D3717DA8FC300FDF548 /* ConsoleInjector */,
+				4DD11D5617DA94B700FDF548 /* ConsolePayload */,
+				4D77FEF217E38C19007C048E /* ConsoleAddOn */,
+				4D77FF0F17E38C19007C048E /* ConsoleAddOnTests */,
+				4DD11D3417DA8FC300FDF548 /* Frameworks */,
+				4DD11D3317DA8FC300FDF548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD11D3317DA8FC300FDF548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD11D3217DA8FC300FDF548 /* ConsoleInjector */,
+				4DD11D5317DA94B700FDF548 /* ConsolePayload.bundle */,
+				4D77FEEC17E38C18007C048E /* ConsoleAddOn.app */,
+				4D77FF0917E38C19007C048E /* ConsoleAddOnTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD11D3417DA8FC300FDF548 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AC6AB6817ED04FC00EFDE56 /* mach_inject_bundle.xcodeproj */,
+				4DD11D4D17DA93AF00FDF548 /* AppKit.framework */,
+				4DD11D3517DA8FC300FDF548 /* Foundation.framework */,
+				4DD11D5417DA94B700FDF548 /* CoreFoundation.framework */,
+				4DD11D6217DA94F700FDF548 /* Cocoa.framework */,
+				4D77FF0A17E38C19007C048E /* SenTestingKit.framework */,
+				4D77FEEE17E38C19007C048E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DD11D3717DA8FC300FDF548 /* ConsoleInjector */ = {
+			isa = PBXGroup;
+			children = (
+				4DD11D3817DA8FC300FDF548 /* main.m */,
+				4DD11D3A17DA8FC300FDF548 /* Supporting Files */,
+				7A42357B17EBB0EB00A3268F /* ConsoleInjector.h */,
+				7A42357C17EBB0EB00A3268F /* ConsoleInjector.m */,
+			);
+			path = ConsoleInjector;
+			sourceTree = "<group>";
+		};
+		4DD11D3A17DA8FC300FDF548 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DD11D3B17DA8FC300FDF548 /* ConsoleInjector-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DD11D5617DA94B700FDF548 /* ConsolePayload */ = {
+			isa = PBXGroup;
+			children = (
+				4DD11D6417DBBAB700FDF548 /* ConsolePayload.h */,
+				4DD11D6517DBBAB700FDF548 /* ConsolePayload.m */,
+				4DD11D5717DA94B700FDF548 /* Supporting Files */,
+			);
+			path = ConsolePayload;
+			sourceTree = "<group>";
+		};
+		4DD11D5717DA94B700FDF548 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DD11D5817DA94B700FDF548 /* ConsolePayload-Info.plist */,
+				4DD11D5917DA94B700FDF548 /* InfoPlist.strings */,
+				4DD11D5C17DA94B700FDF548 /* ConsolePayload-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AC6AB6917ED04FC00EFDE56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AC6AB6E17ED04FD00EFDE56 /* mach_inject_bundle.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D77FEEB17E38C18007C048E /* ConsoleAddOn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D77FF1817E38C19007C048E /* Build configuration list for PBXNativeTarget "ConsoleAddOn" */;
+			buildPhases = (
+				4D77FEE817E38C18007C048E /* Sources */,
+				4D77FEE917E38C18007C048E /* Frameworks */,
+				4D77FEEA17E38C18007C048E /* Resources */,
+				7A42357E17EBB6E700A3268F /* CopyFiles */,
+				7A42358017EBB95E00A3268F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D77FF2117E3CA85007C048E /* PBXTargetDependency */,
+				4D77FF1F17E3CA82007C048E /* PBXTargetDependency */,
+			);
+			name = ConsoleAddOn;
+			productName = ConsoleAddOn;
+			productReference = 4D77FEEC17E38C18007C048E /* ConsoleAddOn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D77FF0817E38C19007C048E /* ConsoleAddOnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D77FF1B17E38C19007C048E /* Build configuration list for PBXNativeTarget "ConsoleAddOnTests" */;
+			buildPhases = (
+				4D77FF0417E38C19007C048E /* Sources */,
+				4D77FF0517E38C19007C048E /* Frameworks */,
+				4D77FF0617E38C19007C048E /* Resources */,
+				4D77FF0717E38C19007C048E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D77FF0E17E38C19007C048E /* PBXTargetDependency */,
+			);
+			name = ConsoleAddOnTests;
+			productName = ConsoleAddOnTests;
+			productReference = 4D77FF0917E38C19007C048E /* ConsoleAddOnTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4DD11D3117DA8FC300FDF548 /* ConsoleInjector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD11D4017DA8FC300FDF548 /* Build configuration list for PBXNativeTarget "ConsoleInjector" */;
+			buildPhases = (
+				4DD11D2E17DA8FC300FDF548 /* Sources */,
+				4DD11D2F17DA8FC300FDF548 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AC6AB7017ED05DE00EFDE56 /* PBXTargetDependency */,
+				4DD11D6117DA94C200FDF548 /* PBXTargetDependency */,
+			);
+			name = ConsoleInjector;
+			productName = ConsoleInjector;
+			productReference = 4DD11D3217DA8FC300FDF548 /* ConsoleInjector */;
+			productType = "com.apple.product-type.tool";
+		};
+		4DD11D5217DA94B700FDF548 /* ConsolePayload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD11D5D17DA94B700FDF548 /* Build configuration list for PBXNativeTarget "ConsolePayload" */;
+			buildPhases = (
+				4DD11D4F17DA94B700FDF548 /* Sources */,
+				4DD11D5017DA94B700FDF548 /* Frameworks */,
+				4DD11D5117DA94B700FDF548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConsolePayload;
+			productName = ConsolePayload;
+			productReference = 4DD11D5317DA94B700FDF548 /* ConsolePayload.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD11D2A17DA8FC300FDF548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Oleksiy Ivanov";
+			};
+			buildConfigurationList = 4DD11D2D17DA8FC300FDF548 /* Build configuration list for PBXProject "ConsoleInjector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DD11D2917DA8FC300FDF548;
+			productRefGroup = 4DD11D3317DA8FC300FDF548 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7AC6AB6917ED04FC00EFDE56 /* Products */;
+					ProjectRef = 7AC6AB6817ED04FC00EFDE56 /* mach_inject_bundle.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4DD11D3117DA8FC300FDF548 /* ConsoleInjector */,
+				4DD11D5217DA94B700FDF548 /* ConsolePayload */,
+				4D77FEEB17E38C18007C048E /* ConsoleAddOn */,
+				4D77FF0817E38C19007C048E /* ConsoleAddOnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7AC6AB6E17ED04FD00EFDE56 /* mach_inject_bundle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = mach_inject_bundle.framework;
+			remoteRef = 7AC6AB6D17ED04FD00EFDE56 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D77FEEA17E38C18007C048E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D77FEF717E38C19007C048E /* InfoPlist.strings in Resources */,
+				4D77FEFD17E38C19007C048E /* Credits.rtf in Resources */,
+				4D77FF0317E38C19007C048E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D77FF0617E38C19007C048E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D77FF1417E38C19007C048E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD11D5117DA94B700FDF548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD11D5B17DA94B700FDF548 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D77FF0717E38C19007C048E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D77FEE817E38C18007C048E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D77FEF917E38C19007C048E /* main.m in Sources */,
+				4D77FF0017E38C19007C048E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D77FF0417E38C19007C048E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D77FF1717E38C19007C048E /* ConsoleAddOnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD11D2E17DA8FC300FDF548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD11D3917DA8FC300FDF548 /* main.m in Sources */,
+				7A42357D17EBB0EB00A3268F /* ConsoleInjector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD11D4F17DA94B700FDF548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD11D6617DBBAB700FDF548 /* ConsolePayload.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D77FF0E17E38C19007C048E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D77FEEB17E38C18007C048E /* ConsoleAddOn */;
+			targetProxy = 4D77FF0D17E38C19007C048E /* PBXContainerItemProxy */;
+		};
+		4D77FF1F17E3CA82007C048E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD11D3117DA8FC300FDF548 /* ConsoleInjector */;
+			targetProxy = 4D77FF1E17E3CA82007C048E /* PBXContainerItemProxy */;
+		};
+		4D77FF2117E3CA85007C048E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD11D5217DA94B700FDF548 /* ConsolePayload */;
+			targetProxy = 4D77FF2017E3CA85007C048E /* PBXContainerItemProxy */;
+		};
+		4DD11D6117DA94C200FDF548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD11D5217DA94B700FDF548 /* ConsolePayload */;
+			targetProxy = 4DD11D6017DA94C200FDF548 /* PBXContainerItemProxy */;
+		};
+		7AC6AB7017ED05DE00EFDE56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mach_inject_bundle;
+			targetProxy = 7AC6AB6F17ED05DE00EFDE56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D77FEF517E38C19007C048E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D77FEF617E38C19007C048E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D77FEFB17E38C19007C048E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D77FEFC17E38C19007C048E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4D77FF0117E38C19007C048E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D77FF0217E38C19007C048E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4D77FF1217E38C19007C048E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D77FF1317E38C19007C048E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4DD11D5917DA94B700FDF548 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD11D5A17DA94B700FDF548 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D77FF1917E38C19007C048E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "Oleksiy Ivanov";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConsoleAddOn/ConsoleAddOn-Prefix.pch";
+				INFOPLIST_FILE = "ConsoleAddOn/ConsoleAddOn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D77FF1A17E38C19007C048E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "Oleksiy Ivanov";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConsoleAddOn/ConsoleAddOn-Prefix.pch";
+				INFOPLIST_FILE = "ConsoleAddOn/ConsoleAddOn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D77FF1C17E38C19007C048E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConsoleAddOn.app/Contents/MacOS/ConsoleAddOn";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConsoleAddOn/ConsoleAddOn-Prefix.pch";
+				INFOPLIST_FILE = "ConsoleAddOnTests/ConsoleAddOnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4D77FF1D17E38C19007C048E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConsoleAddOn.app/Contents/MacOS/ConsoleAddOn";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConsoleAddOn/ConsoleAddOn-Prefix.pch";
+				INFOPLIST_FILE = "ConsoleAddOnTests/ConsoleAddOnTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		4DD11D3E17DA8FC300FDF548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4DD11D3F17DA8FC300FDF548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4DD11D4117DA8FC300FDF548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Oleksiy Ivanov";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConsoleInjector/ConsoleInjector-Prefix.pch";
+				HEADER_SEARCH_PATHS = thirdParty/mach_inject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4DD11D4217DA8FC300FDF548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Oleksiy Ivanov";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConsoleInjector/ConsoleInjector-Prefix.pch";
+				HEADER_SEARCH_PATHS = thirdParty/mach_inject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		4DD11D5E17DA94B700FDF548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Oleksiy Ivanov";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConsolePayload/ConsolePayload-Prefix.pch";
+				INFOPLIST_FILE = "ConsolePayload/ConsolePayload-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4DD11D5F17DA94B700FDF548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Oleksiy Ivanov";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConsolePayload/ConsolePayload-Prefix.pch";
+				INFOPLIST_FILE = "ConsolePayload/ConsolePayload-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D77FF1817E38C19007C048E /* Build configuration list for PBXNativeTarget "ConsoleAddOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D77FF1917E38C19007C048E /* Debug */,
+				4D77FF1A17E38C19007C048E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D77FF1B17E38C19007C048E /* Build configuration list for PBXNativeTarget "ConsoleAddOnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D77FF1C17E38C19007C048E /* Debug */,
+				4D77FF1D17E38C19007C048E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD11D2D17DA8FC300FDF548 /* Build configuration list for PBXProject "ConsoleInjector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD11D3E17DA8FC300FDF548 /* Debug */,
+				4DD11D3F17DA8FC300FDF548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD11D4017DA8FC300FDF548 /* Build configuration list for PBXNativeTarget "ConsoleInjector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD11D4117DA8FC300FDF548 /* Debug */,
+				4DD11D4217DA8FC300FDF548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD11D5D17DA94B700FDF548 /* Build configuration list for PBXNativeTarget "ConsolePayload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD11D5E17DA94B700FDF548 /* Debug */,
+				4DD11D5F17DA94B700FDF548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DD11D2A17DA8FC300FDF548 /* Project object */;
+}
