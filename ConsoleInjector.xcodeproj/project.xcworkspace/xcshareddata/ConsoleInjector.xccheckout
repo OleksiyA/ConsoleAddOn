@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>24B40EED-8FEB-4819-A99F-60B2A747E6EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ConsoleInjector</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1CA01571-D646-4B58-BB2C-FBF1C2CDB9E0</key>
+		<string>https://github.com/OleksiyA/ConsoleAddOn.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ConsoleInjector.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1CA01571-D646-4B58-BB2C-FBF1C2CDB9E0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/OleksiyA/ConsoleAddOn.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1CA01571-D646-4B58-BB2C-FBF1C2CDB9E0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1CA01571-D646-4B58-BB2C-FBF1C2CDB9E0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ConsoleAddOn</string>
+		</dict>
+	</array>
+</dict>
+</plist>

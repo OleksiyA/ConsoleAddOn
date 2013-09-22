@@ -10,7 +10,6 @@
 		4D77FEED17E38C19007C048E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD11D6217DA94F700FDF548 /* Cocoa.framework */; };
 		4D77FEF717E38C19007C048E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D77FEF517E38C19007C048E /* InfoPlist.strings */; };
 		4D77FEF917E38C19007C048E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77FEF817E38C19007C048E /* main.m */; };
-		4D77FEFD17E38C19007C048E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4D77FEFB17E38C19007C048E /* Credits.rtf */; };
 		4D77FF0017E38C19007C048E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77FEFF17E38C19007C048E /* AppDelegate.m */; };
 		4D77FF0317E38C19007C048E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D77FF0117E38C19007C048E /* MainMenu.xib */; };
 		4D77FF0B17E38C19007C048E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D77FF0A17E38C19007C048E /* SenTestingKit.framework */; };
@@ -108,7 +107,6 @@
 		4D77FEF617E38C19007C048E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D77FEF817E38C19007C048E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D77FEFA17E38C19007C048E /* ConsoleAddOn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConsoleAddOn-Prefix.pch"; sourceTree = "<group>"; };
-		4D77FEFC17E38C19007C048E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		4D77FEFE17E38C19007C048E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D77FEFF17E38C19007C048E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4D77FF0217E38C19007C048E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -134,6 +132,8 @@
 		7A42357B17EBB0EB00A3268F /* ConsoleInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleInjector.h; sourceTree = "<group>"; };
 		7A42357C17EBB0EB00A3268F /* ConsoleInjector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleInjector.m; sourceTree = "<group>"; };
 		7AC6AB6817ED04FC00EFDE56 /* mach_inject_bundle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mach_inject_bundle.xcodeproj; path = thirdParty/mach_inject/mach_inject_bundle/mach_inject_bundle.xcodeproj; sourceTree = "<group>"; };
+		7AC6AB7417EF5B1200EFDE56 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		7AC6AB7517EF5B1A00EFDE56 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,7 +205,6 @@
 				4D77FEF517E38C19007C048E /* InfoPlist.strings */,
 				4D77FEF817E38C19007C048E /* main.m */,
 				4D77FEFA17E38C19007C048E /* ConsoleAddOn-Prefix.pch */,
-				4D77FEFB17E38C19007C048E /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -235,6 +234,8 @@
 				4DD11D3717DA8FC300FDF548 /* ConsoleInjector */,
 				4DD11D5617DA94B700FDF548 /* ConsolePayload */,
 				4D77FEF217E38C19007C048E /* ConsoleAddOn */,
+				7AC6AB7517EF5B1A00EFDE56 /* LICENSE */,
+				7AC6AB7417EF5B1200EFDE56 /* README.md */,
 				4D77FF0F17E38C19007C048E /* ConsoleAddOnTests */,
 				4DD11D3417DA8FC300FDF548 /* Frameworks */,
 				4DD11D3317DA8FC300FDF548 /* Products */,
@@ -442,7 +443,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D77FEF717E38C19007C048E /* InfoPlist.strings in Resources */,
-				4D77FEFD17E38C19007C048E /* Credits.rtf in Resources */,
 				4D77FF0317E38C19007C048E /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,14 +553,6 @@
 				4D77FEF617E38C19007C048E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4D77FEFB17E38C19007C048E /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D77FEFC17E38C19007C048E /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		4D77FF0117E38C19007C048E /* MainMenu.xib */ = {
